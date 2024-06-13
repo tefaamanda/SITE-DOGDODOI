@@ -260,29 +260,251 @@ footer {
 
 }
 
-@media (max-width:425px ) {
-.logo {
-     width: 75px;
+/* Responsividade */
+@media (max-width: 426px) {
+    .logo {
+        width: 70px;
+    }
+
+    header {
+        background-color: var(--cabeçalho);
+        width: 100%;
+
+    }
+    nav {
+        width: 100%;
+        gap: 1px;
+    }
+
+    .mais {
+        font-size: small;
+        padding-right: 50px;
+    }
+
+    .home {
+        font-size: small;
+    }
+
+    .blog {
+        font-size: small;
+    }
+
+    .contato {
+        font-size: small;
+    }
+
+    .h2calc {
+        font-size: x-large;
+        padding-top: 5px;
+        padding-right: 40px;
+    }
+
+    .p1 {
+        font-size: medium;
+        padding-right: 40px;
+        padding-left: 20px;
+        padding-top: 1px;
+    }
+
+    .botcal {
+        width: 100px;
+        height: 40px;
+    }
+
+    span {
+        font-size: smaller;
+    }
+
+    .spann{
+        font-size: small;
+    }
+
+    .f {
+        width: 140px;
+    }
+
+    .cachorro {
+        width: 90px;
+    }
+
+    .gato {
+        width: 100px;
+    }
+
+    .fonts {
+        font-size: 14px;
+        margin-left: -16px;
+    }
+    .face {
+        width: 35px;
+        padding-left: 10px;
+    }
+    .twitter {
+        width: 48px;
+    }
+    .linkedin {
+        width: 50px;
+    }
+    .insta {
+        width: 50px;
+        display: flex;
+        position: relative;
+        padding-left: 30px;
+    }
+    .you {
+        width: 63px;
+        display: flex;
+        padding-left: 75px;
+        margin-top: -45px;
+    }
+
+    .img3 {
+        margin-left: -160px;
+    }
+
+    .p3 {
+        font-size: small;
+    }
 }
 
-header {
-    background-color: var(--cabeçalho);
+@media (max-width: 376px) {
+    .logo {
+        width: 90px;
+    }
 
-}
-nav {
-    width: 100%;
-    justify-content: space-around;
+    header {
+        background-color: var(--cabeçalho);
+        width: 420px;
+
+    }
+    nav {
+        width: 100%;
+        gap: 1px;
+    }
+
+    .mais {
+        font-size: medium;
+        padding-right: 30px;
+    }
+
+    .home {
+        font-size: medium;
+    }
+
+    .blog {
+        font-size: medium;
+    }
+
+    .contato {
+        font-size: medium;
+    }
+
+    .h2calc {
+        font-size: xx-large;
+        padding-top: 5px;
+    }
+
+    .p1 {
+        font-size: medium;
+        padding-right: 1px;
+        padding-left: 10px;
+        padding-top: 1px;
+    }
+
+    .botcal {
+        width: 120px;
+        height: 40px;
+    }
+
+    span {
+        font-size: medium;
+    }
+
+    .spann{
+        font-size: medium;
+    }
+
+    form {
+        padding-right: -10px;
+    }
+
+    .f {
+        width: 140px;
+    }
+
+    .cachorro {
+        width: 0;
+    }
+
+    .gato {
+        width: 0;
+    }
+
+    .fonts {
+        font-size: 15px;
+        margin-left: -10px;
+    }
+    .face {
+        width: 40px;
+        padding-left: 25px;
+    }
+    .twitter {
+        width: 55px;
+    }
+    .linkedin {
+        width: 55px;
+    }
+    .insta {
+        width: 60px;
+        display: flex;
+        position: relative;
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+    .you {
+        width: 68px;
+        display: flex;
+        padding-left: 100px;
+        margin-top: -45px;
+    }
+
+    .img3 {
+        margin-left: -170px;
+    }
+
+    .p3 {
+        font-size: small;
+    }
+
+    footer {
+        width: 400px;
+    }
+
+    .sectionIII {
+        margin-left: 20px;
+    }
 }
 
-.home {
-    font-size: large;
-}
+@media (max-width: 321px) {
+    .h2calc {
+        font-size: xx-large;
+        padding-top: 5px;
+        padding-left: 80px;
+        padding-right: 1px;
+    }
 
-.mais {
-    font-size: large;
-}
+    .p1 {
+        font-size: medium;
+        padding-right: 1px;
+        padding-left: 60px;
+        padding-top: 1px;
+    }
 
-.blog {
-    font-size: large;
-}
+    .sectionIII {
+        margin-left: 60px;
+    }
+
+    .p3 {
+        font-size: medium;
+    }
 }

@@ -262,3 +262,121 @@ footer {
     justify-content: center;
 }
 /* fim do rodapé */
+
+/* Responsividade */
+@media (max-width: 426px) {
+   .fonts {
+        font-size: 14px;
+        margin-left: -16px;
+   }
+   .face {
+        width: 35px;
+        padding-left: 10px;
+   }
+   .twitter {
+        width: 48px;
+   }
+   .linkedin {
+        width: 50px;
+   }
+   .insta {
+        width: 50px;
+        display: flex;
+        position: relative;
+        padding-left: 30px;
+   }
+   .you {
+        width: 63px;
+        display: flex;
+        padding-left: 75px;
+        margin-top: -45px;
+  }
+  .img3 {
+        margin-left: -185px;
+  }
+   .home {
+        margin-left: -35px;
+   }
+   .contato {
+        margin-left: -35px;
+   }
+   .mais {
+        margin-left: -35px;
+   }
+   .titulo {
+        font-size: 27px;
+   }
+   h1 {
+        font-size: 27px;
+   }
+}
+
+@media (max-width: 376px) {
+
+    .fonts {
+        font-size: 15px;
+        margin-left: -10px;
+    }
+    .face {
+        width: 40px;
+        padding-left: 25px;
+    }
+    .twitter {
+        width: 55px;
+    }
+    .linkedin {
+        width: 55px;
+    }
+    .insta {
+        width: 60px;
+        display: flex;
+        position: relative;
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+    .you {
+        width: 68px;
+        display: flex;
+        padding-left: 100px;
+        margin-top: -45px;
+    }
+
+    .img3 {
+        margin-left: -170px;
+    }
+
+    .p3 {
+        font-size: small;
+    }
+
+    footer {
+        width: 450px;
+    }
+    header {
+        width: 450px;
+    }
+}
+
+@media (max-width: 321px) {
+    .h2calc {
+        font-size: xx-large;
+        padding-top: 5px;
+        padding-left: 80px;
+        padding-right: 1px;
+    }
+
+    .p1 {
+        font-size: medium;
+        padding-right: 1px;
+        padding-left: 60px;
+        padding-top: 1px;
+    }
+
+    .sectionIII {
+        margin-left: 60px;
+    }
+
+    .p3 {
+        font-size: medium;
+    }
+}

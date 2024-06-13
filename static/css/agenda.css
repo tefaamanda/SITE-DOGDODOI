@@ -146,11 +146,6 @@ button {
     transition: all 0.3s ease-in-out;
   }
 
-  button:hover input {
-    color: var(--rodape);
-    animation: scaleUp 0.3s ease-in-out;
-  }
-
   @keyframes scaleUp {
     0% {
       transform: scale(1);
@@ -245,3 +240,133 @@ footer {
 }
 
 /* fim do rodapé */
+
+/* Responsividade */
+@media (max-width: 426px) {
+   .fonts {
+        font-size: 14px;
+        margin-left: -16px;
+   }
+   .face {
+        width: 35px;
+        padding-left: 10px;
+   }
+   .twitter {
+        width: 48px;
+   }
+   .linkedin {
+        width: 50px;
+   }
+   .insta {
+        width: 50px;
+        display: flex;
+        position: relative;
+        padding-left: 30px;
+   }
+   .you {
+        width: 63px;
+        display: flex;
+        padding-left: 75px;
+        margin-top: -45px;
+  }
+  .img3 {
+        margin-left: -160px;
+  }
+  main {
+        margin: 20px;
+        text-align: center;
+  }
+  form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  }
+  .sectionn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  }
+    .home {
+        margin-left: -35px;
+   }
+   .contato {
+        margin-left: -35px;
+   }
+   .mais {
+        margin-left: -35px;
+   }
+}
+
+@media (max-width: 376px) {
+   header {
+        width: 430px;
+   }
+   .fonts {
+        font-size: 14px;
+        margin-left: -16px;
+   }
+   .face {
+        width: 35px;
+        padding-left: 10px;
+   }
+   .twitter {
+        width: 48px;
+   }
+   .linkedin {
+        width: 50px;
+   }
+   .insta {
+        width: 50px;
+        display: flex;
+        position: relative;
+        padding-left: 30px;
+   }
+   .you {
+        width: 63px;
+        display: flex;
+        padding-left: 75px;
+        margin-top: -45px;
+  }
+  .img3 {
+        margin-left: -160px;
+  }
+  main {
+        margin: 20px;
+        text-align: center;
+  }
+  form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  }
+  .sectionn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 60px;
+  }
+  .agendat {
+        padding-left: 60px;
+  }
+  .para1 {
+        padding-left: 50px;
+  }
+  .button {
+        margin-left: -100px;
+  }
+    .home {
+        margin-left: -35px;
+   }
+   .contato {
+        margin-left: -35px;
+   }
+   .mais {
+        margin-left: -35px;
+   }
+   footer{
+        width: 425px;
+   }
+   .bot{
+    margin-left: 65px;
+   }
+}

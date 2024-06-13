@@ -860,21 +860,355 @@ footer {
   }
 
 /* Responsividade */
-@media (max-width: 320px) {
-    .banner {
-        width: 800px
-    }
-    nav {
-        display: flex;
-        justify-content: center;
-    }
-    .t1 {
-        text-align:center
-    }
-    p {
-        padding-left: 50px;
-        padding-right: -300px;
-    }
+
+/* para 425 */
+@media (max-width: 426px) {
+  .banner {
+    width: 500px
+}
+nav {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+.t1 {
+    text-align:center;
+    width: 400px;
+}
+
+.t2 {
+  width: 400px;
+}
+
+.vets {
+  width: 300px;
+}
+
+.clinica {
+  width: 300px
+}
+
+.clinica2 {
+  width: 300px
+}
+
+.card {
+  flex-direction: column;
+  display: flex;
+}
+
+.cards {
+  flex-direction: column;
+  display: flex;
+}
+
+.cardtop {
+  padding: 2em 1.2em;
+  margin: 12px;
+  margin-top: -1px;
+}
+
+.cardtopo {
+  padding: 2em 1.2em;
+  margin: 12px;
+  margin-top: -1px;
 }
 
 
+button {
+  background: transparent;
+  position: relative;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #F5403D;
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
+  color: #F5403D;
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.slides{
+  width: 400%;
+  height: 400px;
+  display: flex;
+}
+
+.slide {
+  width: 25%;
+  position: relative;
+  transition: 2s;
+}
+
+.slider{
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.botcal {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: rgb(45, 170, 207);
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  margin-left: 120px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+p {
+    padding-left: 50px;
+    padding-right: -300px;
+}
+
+ .fonts {
+        font-size: 14px;
+        margin-left: -16px;
+   }
+   .face {
+        width: 35px;
+        padding-left: 5px;
+   }
+   .twitter {
+        width: 48px;
+   }
+   .linkedin {
+        width: 50px;
+   }
+   .insta {
+        width: 50px;
+        display: flex;
+        position: relative;
+        padding-left: 30px;
+   }
+   .you {
+        width: 63px;
+        display: flex;
+        padding-left: 75px;
+        margin-top: -45px;
+  }
+
+  .img3 {
+        margin-left: -220px;
+  }
+
+  footer {
+    width: 450px;
+  }
+.p3 {
+  font-size: small;
+}
+   }
+
+/* para 375 */
+@media (max-width: 376px) {
+   .banner {
+    width: 700px
+}
+.t1 {
+  text-align: center;
+}
+.t2 {
+  text-align: center;
+}
+
+p {
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.vets {
+  text-align: center;
+  padding-left: 50px;
+}
+
+.card {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+
+.cards {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+
+.cardtop {
+  padding: 2em 1.2em;
+  margin: 12px;
+  margin-top: -1px;
+}
+
+.cardtopo {
+  padding: 2em 1.2em;
+  margin: 12px;
+  margin-top: -1px;
+}
+
+button {
+  margin-top: -10px;
+}
+
+.depoimento-sec {
+  width: 670px;
+}
+.botcal {
+  margin-left: 250px;
+}
+
+.depoimento-titulo {
+  padding-right: 250px;
+  padding-left: 150px;
+}
+
+.fonts {
+  font-size: 15px;
+  margin-left: -10px;
+}
+.face {
+  width: 40px;
+  padding-left: 25px;
+}
+.twitter {
+  width: 55px;
+}
+.linkedin {
+  width: 55px;
+}
+.insta {
+  width: 60px;
+  display: flex;
+  position: relative;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+.you {
+  width: 68px;
+  display: flex;
+  padding-left: 100px;
+  margin-top: -45px;
+}
+
+.img3 {
+  margin-left: -170px;
+}
+
+.p3 {
+  font-size: small;
+}
+
+footer {
+  width: 670px;
+}
+}
+
+@media (max-width: 321px) {
+  /* cabeçalho */
+  .logo {
+    width: 120px;
+}
+
+header {
+    background-color: var(--cabeçalho);
+    width: 500px;
+    gap: 20px;
+
+
+}
+nav {
+    width: 100%;
+    gap: 1px;
+}
+
+.mais {
+    font-size: medium;
+    padding-right: 30px;
+}
+
+.home {
+    font-size: x-large;
+}
+
+.blog {
+    font-size: x-large;
+}
+
+.contato {
+    font-size: x-large;
+}
+
+.t1 {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+p {
+  padding-left: 80px;
+  padding-right: 800px;
+  font-size: xx-large;
+}
+
+.depoimento-sec {
+  width: 1100px;
+}
+
+/* rodapé */
+.fonts {
+  font-size: 15px;
+  margin-left: -10px;
+}
+.face {
+  width: 40px;
+  padding-left: 25px;
+}
+.twitter {
+  width: 55px;
+}
+.linkedin {
+  width: 55px;
+}
+.insta {
+  width: 60px;
+  display: flex;
+  position: relative;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+.you {
+  width: 68px;
+  display: flex;
+  padding-left: 100px;
+  margin-top: -45px;
+}
+
+.img3 {
+  margin-left: -170px;
+}
+
+.p3 {
+  font-size: small;
+}
+
+footer {
+  width: 1100px;
+}
+}

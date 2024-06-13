@@ -50,6 +50,10 @@ nav {
     font-size: larger;
 }
 
+body {
+    background: #e8eaeb;
+}
+
 .contato {
     color: var(--titulo);
     font-weight: bold;
@@ -319,24 +323,92 @@ footer {
 }
 /* fim do rodapé */
 
-/* Responsividade */
-@media (max-width: 320px) {
-    .banner {
-        width: 800px
-    }
-    nav {
+
+
+@media (max-width: 426px) {
+   .fonts {
+        font-size: 14px;
+        margin-left: -16px;
+   }
+   .face {
+        width: 35px;
+        padding-left: 10px;
+   }
+   .twitter {
+        width: 48px;
+   }
+   .linkedin {
+        width: 50px;
+   }
+   .insta {
+        width: 50px;
         display: flex;
-        justify-content: center;
-    }
-    .t1 {
-        text-align:center
-    }
-    p {
-        padding-left: 50px;
-        padding-right: -300px;
-    }
+        position: relative;
+        padding-left: 30px;
+   }
+   .you {
+        width: 63px;
+        display: flex;
+        padding-left: 75px;
+        margin-top: -45px;
+  }
+  .img3 {
+        margin-left: -185px;
+  }
+   .home {
+        margin-left: -35px;
+   }
+   .contato {
+        margin-left: -35px;
+   }
+   .mais {
+        margin-left: -35px;
+   }
 }
 
-body {
-    background-color: #e8eaeb;
+@media (max-width: 376px) {
+  .fonts {
+        font-size: 14px;
+        margin-left: -16px;
+   }
+   .face {
+        width: 35px;
+        padding-left: 10px;
+   }
+   .twitter {
+        width: 48px;
+   }
+   .linkedin {
+        width: 50px;
+   }
+   .insta {
+        width: 50px;
+        display: flex;
+        position: relative;
+        padding-left: 30px;
+   }
+   .you {
+        width: 63px;
+        display: flex;
+        padding-left: 75px;
+        margin-top: -45px;
+  }
+  .img3 {
+        margin-left: -185px;
+  }
+   .home {
+        margin-left: -35px;
+   }
+   .contato {
+        margin-left: -35px;
+   }
+   .mais {
+        margin-left: -35px;
+   }
+   header {
+        width: 420px;
+   }
+   footer{
+        width: 425px;
+   }
 }
